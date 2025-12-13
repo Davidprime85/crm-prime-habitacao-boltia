@@ -1,0 +1,145 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║          CRM PRIME HABITAÇÃO - CREDENCIAIS DE ACESSO        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ ✅ ADMINISTRADOR PRINCIPAL                                   │
+└─────────────────────────────────────────────────────────────┘
+
+  Email: david@creditoprime.com.br
+  Senha: Prime2024!
+
+  ⚠️  IMPORTANTE: TROQUE ESTA SENHA APÓS O PRIMEIRO LOGIN!
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🌐 SERVIÇOS UTILIZADOS                                       │
+└─────────────────────────────────────────────────────────────┘
+
+  1. SUPABASE (Banco de Dados)
+     - URL: https://supabase.com/dashboard
+     - Projeto: CRM Prime Habitacao
+     - Login: Use sua conta GitHub/Email
+
+  2. VERCEL (Hospedagem do Site)
+     - URL: https://vercel.com/dashboard
+     - Projeto: crm-prime-habitacao
+     - Login: Use sua conta GitHub
+
+  3. OPENAI (Análise de Documentos com IA)
+     - URL: https://platform.openai.com
+     - Configure a API Key no Supabase (Edge Functions → Secrets)
+     - Secret Name: OPENAI_API_KEY
+
+  4. RESEND (Envio de Emails)
+     - URL: https://resend.com
+     - Configure a API Key no Supabase (Edge Functions → Secrets)
+     - Secret Name: RESEND_API_KEY
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📋 O QUE FOI FEITO                                           │
+└─────────────────────────────────────────────────────────────┘
+
+  ✅ Banco de dados criado no Supabase
+  ✅ 5 tabelas criadas (profiles, processes, documents, etc)
+  ✅ RLS (segurança) configurado em todas as tabelas
+  ✅ Administrador criado (david@creditoprime.com.br)
+  ✅ Edge Functions criadas (analyze-income, send-email)
+  ✅ Storage bucket criado (documents)
+  ✅ Tela de login redesenhada com suas logos
+  ✅ Sistema completo funcionando
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📝 O QUE VOCÊ PRECISA FAZER                                  │
+└─────────────────────────────────────────────────────────────┘
+
+  1. Configurar OpenAI API Key no Supabase (15 min)
+     → Leia: GUIA_CONFIGURACAO_COMPLETO.md
+
+  2. Configurar Resend API Key no Supabase (10 min)
+     → Leia: GUIA_CONFIGURACAO_COMPLETO.md
+
+  3. Fazer deploy no Vercel (20 min)
+     → Leia: DEPLOY_VERCEL.md
+
+  4. Testar o sistema (10 min)
+     → Faça login e teste todas as funcionalidades
+
+  TEMPO TOTAL: Aproximadamente 1 hora
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ 💰 CUSTOS MENSAIS ESTIMADOS                                  │
+└─────────────────────────────────────────────────────────────┘
+
+  Supabase Pro:      $25/mês (fixo)
+  Vercel Free:        $0/mês
+  OpenAI:        $10-20/mês (variável, ~$0.01 por análise)
+  Resend Free:        $0/mês (até 100 emails/dia)
+  ────────────────────────────
+  TOTAL:         $35-45/mês
+
+  💡 Para começar, use Supabase Free e gaste apenas $10-20/mês!
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ 📚 DOCUMENTAÇÃO COMPLETA                                     │
+└─────────────────────────────────────────────────────────────┘
+
+  📖 START_HERE.md
+     → Comece por aqui! Visão geral e próximos passos
+
+  📖 GUIA_CONFIGURACAO_COMPLETO.md
+     → Passo a passo detalhado de TUDO
+
+  📖 DEPLOY_VERCEL.md
+     → Como publicar o site na internet
+
+  📖 INFORMACOES_IMPORTANTES.md
+     → Resumo de credenciais, custos e recursos
+
+  📖 COMANDOS_UTEIS.md
+     → Queries SQL e comandos úteis do dia a dia
+
+  📖 GUIA_MIGRACAO.md
+     → Comparação Firebase vs Supabase
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ ⚡ PRÓXIMOS PASSOS                                           │
+└─────────────────────────────────────────────────────────────┘
+
+  1. Leia START_HERE.md
+  2. Leia GUIA_CONFIGURACAO_COMPLETO.md
+  3. Configure as API Keys (OpenAI e Resend)
+  4. Faça deploy no Vercel
+  5. Teste o sistema
+  6. Crie seus atendentes
+  7. Comece a usar!
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🆘 SUPORTE                                                   │
+└─────────────────────────────────────────────────────────────┘
+
+  Se tiver problemas, consulte:
+
+  - Logs do Supabase (Edge Functions → Logs)
+  - Logs do Vercel (Deployments → Logs)
+  - Documentação dos serviços (links nos arquivos de guia)
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║  🎉 PARABÉNS! Seu CRM está pronto para uso!                 ║
+║                                                              ║
+║  Sistema: CRM Prime Habitação v1.0                          ║
+║  Data: 10/12/2024                                           ║
+║  Cliente: Grupo Prime / Crédito Prime                       ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
